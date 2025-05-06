@@ -42,12 +42,13 @@
     ```bash
     npm install
     ```
-4.  API Integration - [API Integration](#-api-integration)
-5.  Start the development server:
+4.  API Integration - Follow the link : [API Integration](#-api-integration)
+   
+6.  Start the development server:
     ```bash
     npm run dev
     ```
-6.  Open your browser and navigate to the address provided by Vite (usually `http://localhost:5173`).
+7.  Open your browser and navigate to the address provided by Vite (usually `http://localhost:5173`).
 
 ## 🧪 API Integration
 **API Used**: [The Movie Database (TMDB)](https://www.themoviedb.org/documentation/api)
