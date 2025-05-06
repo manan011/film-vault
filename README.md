@@ -51,7 +51,8 @@
 7.  Open your browser and navigate to the address provided by Vite (usually `http://localhost:5173`).
 
 ## 🧪 API Integration
-<strong>API Used</strong>: <a href="https://www.themoviedb.org/documentation/api" target="_blank" rel="noopener noreferrer">The Movie Database (TMDB)</a>
+**API Used**: [The Movie Database (TMDB)](https://www.themoviedb.org/documentation/api)
+
 This project uses TMDB to fetch movie data dynamically.
 
 ### 🔐 API Key Setup
