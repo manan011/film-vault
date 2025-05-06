@@ -1,12 +1,37 @@
-# React + Vite
+# 🎬 Film Vault
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Film Vault** is a React.js frontend application (bootstrapped with Vite) that replicates core functionalities of IMDb. Users can browse popular movies, add them to a personal watchlist, and filter/search through them interactively. All data persists via `localStorage`.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Visit Film Vault on Vercel](#) *(add the link after deployment)*
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js (Vite)
+- Axios
+- React Router DOM
+- TMDB API
+- LocalStorage
+- Vercel (Deployment)
+
+## 📸 Features
+
+- **Movies Page**: Displays 20 trending movies from TMDB API.
+- **Pagination**: Navigate between pages, with current and total pages shown.
+- **Movie Cards**: Show poster, overview, and "Add to Watchlist"/"Remove" button.
+- **Watchlist Page**:
+  - Table view of saved movies with details.
+  - "Delete" and "Remove from Watchlist" sync functionality.
+- **Persistent State**: `localStorage` used to maintain watchlist.
+- **Search Bar**: Filter watchlist by movie name.
+- **Genre Filter**: Auto-generated genre buttons based on added movies; filters watchlist by genre.
+
+## 📦 Getting Started Locally
+
+```bash
+git clone https://github.com/<your-username>/film-vault.git
+cd film-vault
+npm install
+npm run dev
+```
