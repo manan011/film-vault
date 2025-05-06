@@ -42,14 +42,22 @@
     ```bash
     npm install
     ```
-4.  🧪 API Integration
-    API used: The Movie Database (TMDB)
-    You must add your TMDB API key in the appropriate .env file for the app to function.
+4.  API Integration - [API Integration](#-api-integration)
 5.  Start the development server:
     ```bash
     npm run dev
     ```
 6.  Open your browser and navigate to the address provided by Vite (usually `http://localhost:5173`).
+
+## 🧪 API Integration
+**API Used**: [The Movie Database (TMDB)](https://www.themoviedb.org/documentation/api)
+This project uses TMDB to fetch movie data dynamically.
+
+### 🔐 API Key Setup
+To run the project locally, you need to create a `.env` file in the root directory and add your TMDB API key:
+```bash
+VITE_TMDB_API_KEY=your_tmdb_api_key_here
+```
 
 ## Contributing
 
