@@ -42,7 +42,9 @@
     ```bash
     npm install
     ```
-4.  Obtain an API key from [The Movie Database (TMDB)](https://www.themoviedb.org/settings/api) and replace `'YOUR_TMDB_API_KEY'` in your code with your actual API key.
+4.  🧪 API Integration
+    API used: The Movie Database (TMDB)
+    You must add your TMDB API key in the appropriate .env file for the app to function.
 5.  Start the development server:
     ```bash
     npm run dev
